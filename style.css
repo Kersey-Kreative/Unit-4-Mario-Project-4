@@ -20,6 +20,7 @@ body {
     padding: 25px;
     font-family: optima, sans-serif;
     border: 1px solid #3B5BA5;
+    border-top: none;
 }
 
 #pyramid {
