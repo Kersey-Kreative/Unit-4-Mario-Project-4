@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unit 4 Mario Project 4</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <h1>MARIO 4</h1>
+    </div>
+
+    <div id="container">
+        <p>When You Say "Draw A Pyramid"</p>
+
+       <p>I Ask:  "HOW HIGH?"</p>
+
+        
+        <br>
+        <input type="input" id="height" onfocus="this.value=''" value="Enter number of blocks" />
+        <span class="error-message" id="errorMessage" style="color: red; display: none;"><p id="bg"></p></span> 
+
+        <br><br>
+        <button onclick="myPyramid()" id="submit">Draw Pyramid</button>
+        <br> <br>
+        <table id="pyramid"></table>
+    </div>
+    <script src="mario.js" defer></script>
+</body>
+</html>
